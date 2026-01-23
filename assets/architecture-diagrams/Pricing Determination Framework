@@ -1,0 +1,10 @@
+flowchart TB
+P[Pricing Procedure] --> CT[Condition Types]
+CT --> AS[Access Sequences]
+AS --> T[Condition Tables]
+T --> CR[Condition Records]
+
+CT --- E1((Exclusion Groups))
+CT --- E2((Scales))
+CT --- E3((Manual Controls))
+CR --- E4((Governance))
