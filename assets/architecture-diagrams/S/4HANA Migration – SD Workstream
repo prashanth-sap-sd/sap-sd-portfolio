@@ -1,0 +1,10 @@
+flowchart LR
+L[Legacy ECC] --> W[Fit-to-Standard Workshops]
+W --> S[Standardize OTC]
+S --> P[Simplify Pricing]
+P --> D[Reduce Custom Code]
+D --> M[Master Data Alignment]
+M --> G[Go-Live Readiness]
+
+D --- C((Clean Core))
+M --- V((Validation))
