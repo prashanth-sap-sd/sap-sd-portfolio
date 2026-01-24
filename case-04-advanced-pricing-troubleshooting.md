@@ -83,3 +83,56 @@ Created pricing scenario matrix covering:
 
 Pricing issues are rarely “just configuration.”  
 They are governance + access design + master data alignment combined.
+# Pricing Determination Framework – Advanced Pricing Troubleshooting (Case Study)
+
+## Summary
+Built and supported an advanced pricing framework and troubleshooting approach to reduce pricing-related incidents and speed up root cause analysis.
+
+**Experience signals:** 10+ years • 3 full life-cycle implementations • Delivered across 5 ASAP phases
+
+---
+
+## Business Need
+- Pricing issues were impacting revenue accuracy and order processing.
+- Teams needed a repeatable method to debug pricing quickly.
+
+---
+
+## My Role
+- Owned pricing configuration structure and troubleshooting workflow.
+- Partnered with SD, FI, and business stakeholders to validate pricing outcomes.
+
+---
+
+## What I Delivered
+### Pricing Framework (Sanitized)
+- Condition technique setup: condition tables → access sequences → condition types
+- Pricing procedure alignment and exclusions strategy
+- Condition records governance (who maintains what, where, and when)
+
+### Troubleshooting Playbook (What I actually do in real projects)
+- Confirm document type + pricing procedure determination
+- Validate access sequence search and key combinations
+- Check exclusion groups, scales, requirement/routine logic
+- Verify master data inputs (customer/material/pricing date)
+- Document repeatable steps for support teams
+
+---
+
+## Key Configuration Areas
+- Pricing procedure design
+- Partner determination impact on pricing
+- Copy control impacts (when relevant)
+- Output determination checks for pricing-related forms
+
+---
+
+## Outcome
+- Faster issue resolution via structured debugging path
+- Cleaner pricing design that reduces repeated incidents
+
+---
+
+## Artifacts
+- Pricing determination diagram (visual)
+- Troubleshooting checklist (sanitized)
