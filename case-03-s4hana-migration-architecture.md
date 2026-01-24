@@ -80,3 +80,58 @@ The objective was to transition to S/4HANA while reducing configuration complexi
 - Pricing architecture must be simplified before migration
 - Master data cleanup directly impacts pricing stability
 - Governance structure prevents post-go-live configuration drift
+# S/4HANA Migration – SD Workstream (Case Study)
+
+## Summary
+Led SAP SD workstream delivery for an S/4HANA migration with focus on Order-to-Cash stability, integration readiness, and cutover discipline.
+
+**Experience signals:** 10+ years • 3 full life-cycle implementations • Delivered across 5 ASAP phases
+
+---
+
+## Business Need
+- Move SD processes to S/4HANA with minimal disruption to order processing, deliveries, billing, and FI posting.
+- Reduce go-live risk through structured testing, cutover readiness, and hypercare stabilization.
+
+---
+
+## My Role (SD/LE Lead)
+- Owned SD scope, dependencies, and delivery checkpoints across ASAP phases.
+- Coordinated integration touchpoints with **FI/CO, MM, PP, WM**.
+- Defined testing approach and supported defect triage for SD-related issues.
+
+---
+
+## What I Delivered
+### SD Workstream Scope
+- OTC: sales orders → delivery → billing → FI accounting document
+- Advanced pricing readiness and billing accuracy
+- LE: shipping point, route determination, transportation & shipment docs
+- Output determination + forms coordination (where applicable)
+
+### Governance & Execution
+- Fit/gap inputs + configuration approach
+- Test cycles: unit → integration → regression + UAT support
+- Cutover checklist + go-live readiness gates
+- Hypercare triage and stabilization runbook
+
+---
+
+## Technical Highlights (Sanitized)
+- Enterprise structure assignments and O2C configuration alignment
+- Shipping/route scheduling setup and delivery split/grouping analysis
+- Billing plans, intercompany billing flows, and account determination checks
+- IDoc awareness for inbound/outbound integration scenarios
+
+---
+
+## Outcome (What hiring managers care about)
+- Stable OTC execution at cutover with structured readiness and issue management
+- Strong workstream ownership and clear documentation for support transition
+
+---
+
+## Artifacts
+- Cutover checklist (sanitized)
+- OTC process map (diagram)
+- Pricing & billing troubleshooting guide (sanitized)
