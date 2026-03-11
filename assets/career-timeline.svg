@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e"/>
+      <stop offset="100%" style="stop-color:#0f1e3a"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c8893a;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#c8893a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#e8b46a;stop-opacity:0.8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2744"/>
+      <stop offset="100%" style="stop-color:#0f1a30"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="url(#bg)" rx="16"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#c8893a" stroke-width="1">
+    <line x1="0" y1="130" x2="900" y2="130"/>
+    <line x1="0" y1="260" x2="900" y2="260"/>
+    <line x1="0" y1="390" x2="900" y2="390"/>
+    <line x1="150" y1="0" x2="150" y2="520"/>
+    <line x1="300" y1="0" x2="300" y2="520"/>
+    <line x1="450" y1="0" x2="450" y2="520"/>
+    <line x1="600" y1="0" x2="600" y2="520"/>
+    <line x1="750" y1="0" x2="750" y2="520"/>
+  </g>
+
+  <!-- Header -->
+  <text x="450" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ffffff" font-weight="bold" letter-spacing="1">PRASHANTH GOUD</text>
+  <text x="450" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c8893a" letter-spacing="3">10+ YEAR CAREER JOURNEY · SAP SD / S/4HANA</text>
+
+  <!-- Gold divider line -->
+  <line x1="60" y1="85" x2="840" y2="85" stroke="url(#goldLine)" stroke-width="1.5"/>
+
+  <!-- Timeline horizontal line -->
+  <line x1="80" y1="230" x2="820" y2="230" stroke="#c8893a" stroke-width="2" opacity="0.6"/>
+
+  <!-- ── NODE 1: Jarus Technologies ── -->
+  <circle cx="118" cy="230" r="10" fill="#c8893a" filter="url(#glow)"/>
+  <circle cx="118" cy="230" r="16" fill="none" stroke="#c8893a" stroke-width="1.5" opacity="0.4"/>
+  <!-- Card above -->
+  <rect x="44" y="100" width="148" height="108" rx="8" fill="url(#cardGrad)" stroke="#c8893a" stroke-width="1" stroke-opacity="0.5" filter="url(#shadow)"/>
+  <rect x="44" y="100" width="148" height="4" rx="4" fill="#c8893a"/>
+  <text x="118" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c8893a" font-weight="bold" letter-spacing="1">2014 – 2017</text>
+  <text x="118" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">Jarus</text>
+  <text x="118" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">Technologies</text>
+  <text x="118" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7a9cc8">SAP SD/LE Consultant</text>
+  <text x="118" y="183" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">ECC · EDI · Automotive</text>
+  <text x="118" y="197" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">IDoc · LE Config</text>
+  <!-- Connector -->
+  <line x1="118" y1="208" x2="118" y2="220" stroke="#c8893a" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6"/>
+
+  <!-- ── NODE 2: MTouchLabs ── -->
+  <circle cx="270" cy="230" r="10" fill="#c8893a" filter="url(#glow)"/>
+  <circle cx="270" cy="230" r="16" fill="none" stroke="#c8893a" stroke-width="1.5" opacity="0.4"/>
+  <!-- Card below -->
+  <rect x="196" y="258" width="148" height="108" rx="8" fill="url(#cardGrad)" stroke="#c8893a" stroke-width="1" stroke-opacity="0.5" filter="url(#shadow)"/>
+  <rect x="196" y="258" width="148" height="4" rx="4" fill="#c8893a"/>
+  <text x="270" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c8893a" font-weight="bold" letter-spacing="1">2018 – 2019</text>
+  <text x="270" y="296" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">MTouchLabs</text>
+  <text x="270" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">Private Ltd</text>
+  <text x="270" y="326" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7a9cc8">SD Functional Consultant</text>
+  <text x="270" y="341" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">50+ Enhancements</text>
+  <text x="270" y="355" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">Commodity Pricing</text>
+  <!-- Connector -->
+  <line x1="270" y1="240" x2="270" y2="257" stroke="#c8893a" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6"/>
+
+  <!-- ── NODE 3: Molina Healthcare ── -->
+  <circle cx="430" cy="230" r="12" fill="#1a3a6b" stroke="#c8893a" stroke-width="2.5" filter="url(#glow)"/>
+  <circle cx="430" cy="230" r="20" fill="none" stroke="#c8893a" stroke-width="1.5" opacity="0.5"/>
+  <text x="430" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#c8893a" font-weight="bold">OTC</text>
+  <!-- Card above -->
+  <rect x="352" y="96" width="156" height="112" rx="8" fill="url(#cardGrad)" stroke="#e8b46a" stroke-width="1.5" stroke-opacity="0.7" filter="url(#shadow)"/>
+  <rect x="352" y="96" width="156" height="4" rx="4" fill="#e8b46a"/>
+  <text x="430" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#e8b46a" font-weight="bold" letter-spacing="1">2020 – 2021</text>
+  <text x="430" y="134" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff" font-weight="bold">Molina</text>
+  <text x="430" y="149" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff" font-weight="bold">Healthcare</text>
+  <text x="430" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7a9cc8">OTC Lead Consultant</text>
+  <text x="430" y="180" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">Full Lifecycle · Agile</text>
+  <text x="430" y="194" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">Offshore Team Lead</text>
+  <!-- Connector -->
+  <line x1="430" y1="208" x2="430" y2="210" stroke="#e8b46a" stroke-width="2" stroke-dasharray="3,2" opacity="0.7"/>
+
+  <!-- ── NODE 4: Global Atlantic ── -->
+  <circle cx="600" cy="230" r="10" fill="#c8893a" filter="url(#glow)"/>
+  <circle cx="600" cy="230" r="16" fill="none" stroke="#c8893a" stroke-width="1.5" opacity="0.4"/>
+  <!-- Card below -->
+  <rect x="522" y="258" width="156" height="116" rx="8" fill="url(#cardGrad)" stroke="#c8893a" stroke-width="1" stroke-opacity="0.5" filter="url(#shadow)"/>
+  <rect x="522" y="258" width="156" height="4" rx="4" fill="#c8893a"/>
+  <text x="600" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c8893a" font-weight="bold" letter-spacing="1">2021 – 2022</text>
+  <text x="600" y="296" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">Global Atlantic</text>
+  <text x="600" y="311" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#ffffff" font-weight="bold">Financial Group</text>
+  <text x="600" y="327" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7a9cc8">S/4HANA Public Cloud</text>
+  <text x="600" y="342" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">SD-PS Billing · SSCUI</text>
+  <text x="600" y="357" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#5a7aa0">Financial Services OTC</text>
+  <!-- Connector -->
+  <line x1="600" y1="240" x2="600" y2="257" stroke="#c8893a" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6"/>
+
+  <!-- ── NODE 5: Experian (current) ── -->
+  <circle cx="782" cy="230" r="14" fill="#c8893a" filter="url(#glow)"/>
+  <circle cx="782" cy="230" r="22" fill="none" stroke="#c8893a" stroke-width="2" opacity="0.6"/>
+  <circle cx="782" cy="230" r="30" fill="none" stroke="#c8893a" stroke-width="1" opacity="0.2"/>
+  <text x="782" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#0a0f1e" font-weight="bold">NOW</text>
+  <!-- Card above -->
+  <rect x="704" y="92" width="156" height="116" rx="8" fill="#1a3a6b" stroke="#c8893a" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="704" y="92" width="156" height="4" rx="4" fill="#c8893a"/>
+  <!-- Glow effect on current card -->
+  <rect x="704" y="92" width="156" height="116" rx="8" fill="none" stroke="#c8893a" stroke-width="1" opacity="0.3"/>
+  <text x="782" y="113" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c8893a" font-weight="bold" letter-spacing="1">2023 – PRESENT</text>
+  <text x="782" y="131" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#ffffff" font-weight="bold">Experian</text>
+  <text x="782" y="148" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7a9cc8">SAP SD S/4HANA Lead</text>
+  <text x="782" y="163" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#8ab4d8">ECC→S/4HANA Migration</text>
+  <text x="782" y="178" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#8ab4d8">aATP · BRF+ · Fiori</text>
+  <text x="782" y="193" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#8ab4d8">Global InfoSvcs</text>
+  <!-- Connector -->
+  <line x1="782" y1="208" x2="782" y2="216" stroke="#c8893a" stroke-width="2" stroke-dasharray="3,2" opacity="0.8"/>
+
+  <!-- Year markers on timeline -->
+  <text x="118" y="254" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">2014</text>
+  <text x="270" y="254" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">2018</text>
+  <text x="430" y="254" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">2020</text>
+  <text x="600" y="254" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">2021</text>
+  <text x="782" y="254" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#c8893a">2023→</text>
+
+  <!-- Bottom stats bar -->
+  <rect x="60" y="400" width="780" height="80" rx="10" fill="#111827" stroke="#1a3a6b" stroke-width="1"/>
+  <line x1="60" y1="400" x2="840" y2="400" stroke="#c8893a" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Stat 1 -->
+  <text x="175" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c8893a" font-weight="bold" filter="url(#glow)">10+</text>
+  <text x="175" y="452" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="1">YEARS</text>
+  <text x="175" y="467" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">EXPERIENCE</text>
+
+  <line x1="310" y1="412" x2="310" y2="468" stroke="#1a3a6b" stroke-width="1"/>
+
+  <!-- Stat 2 -->
+  <text x="420" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c8893a" font-weight="bold" filter="url(#glow)">3</text>
+  <text x="420" y="452" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="1">FULL LIFECYCLE</text>
+  <text x="420" y="467" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">IMPLEMENTATIONS</text>
+
+  <line x1="530" y1="412" x2="530" y2="468" stroke="#1a3a6b" stroke-width="1"/>
+
+  <!-- Stat 3 -->
+  <text x="635" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c8893a" font-weight="bold" filter="url(#glow)">5</text>
+  <text x="635" y="452" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="1">CLIENTS</text>
+  <text x="635" y="467" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">ACROSS USA &amp; INDIA</text>
+
+  <line x1="740" y1="412" x2="740" y2="468" stroke="#1a3a6b" stroke-width="1"/>
+
+  <!-- Stat 4 -->
+  <text x="800" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c8893a" font-weight="bold" filter="url(#glow)">S/4</text>
+  <text x="800" y="452" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="1">HANA</text>
+  <text x="800" y="467" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5a80">CERTIFIED READY</text>
+
+  <!-- Bottom label -->
+  <text x="450" y="500" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#2a3a50" letter-spacing="2">PRASHANTH GOUD · SAP SD / S/4HANA CONSULTANT · github.com/prashanth-sap-sd</text>
+</svg>
