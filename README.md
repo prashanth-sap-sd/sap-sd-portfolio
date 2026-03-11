@@ -1,27 +1,47 @@
-# SAP SD/LE Consultant Portfolio — Prashanth Goud
+# Visual Portfolio — Prashanth Goud · SAP SD / S/4HANA Consultant
 
-I’m an SAP SD/LE consultant with 10+ years of experience across SAP S/4HANA and ECC, specializing in Order-to-Cash (OTC), Pricing, Billing, and Logistics Execution (LE). This portfolio contains sanitized case studies, configuration playbooks, and delivery templates that reflect how I design, implement, and support SAP SD solutions.
+> Dark & modern architecture visuals, competency maps, and process diagrams
 
-## Highlights
-- S/4HANA & ECC SD/LE: OTC, Pricing, Billing, Shipping, Deliveries
-- Integrations: SD–FI, SD–MM (plus exposure to WM/PP)
-- Outputs & Interfaces: Output determination, EDI/IDoc coordination
-- Delivery: Fit-to-standard workshops, configuration, testing/UAT, cutover, hypercare
+---
 
-## Portfolio Contents
-### ✅ Case Studies
-- [Case Study 01 — S/4HANA OTC Migration](case-studies/case-01-s4-otc-migration.md)
-- [Case Study 02 — Pricing Procedure Design & Troubleshooting](case-studies/case-02-pricing-design.md)
+## 🗓️ Career Timeline — 10 Year Journey
 
-### ✅ Playbooks (How I Work)
-- [Pricing Condition Technique Playbook](playbooks/pricing-condition-technique.md)
-- [OTC Testing & Validation Checklist](playbooks/otc-testing-checklist.md)
+![Career Timeline](./career-timeline.svg)
 
-### ✅ Templates (Reusable Delivery Assets)
-- [Fit-to-Standard Workshop Agenda](templates/fit-to-standard-agenda.md)
-- [UAT Test Script Template](templates/uat-test-script-template.md)
-- [Cutover Checklist](templates/cutover-checklist.md)
+---
 
-## Contact
-- LinkedIn: https://www.linkedin.com/in/pr-goud
-- Email: t.prashanth0728 @gmail.com
+## 📊 Delivery Stats Dashboard
+
+![Delivery Stats](./delivery-stats.svg)
+
+---
+
+## 🎯 SAP SD Competency Map
+
+![Skills Competency Map](./skills-competency-map.svg)
+
+---
+
+## 🔄 Order-to-Cash Process Flow
+
+![OTC Process Flow](./otc-process-flow.svg)
+
+---
+
+## 📐 Architecture Diagrams (Mermaid)
+
+Full Mermaid process diagrams — rendered natively on GitHub:
+
+→ **[View Architecture Diagrams](./architecture-diagrams/README.md)**
+
+Includes:
+- OTC End-to-End Flow
+- Condition Technique / Pricing Determination
+- S/4HANA Migration Gantt Timeline
+- Shipping Point & Route Determination
+- SD–FI Account Determination
+- Hypercare Incident Triage Flow
+
+---
+
+*All visuals created by Prashanth Goud to document real SAP SD delivery experience.*
