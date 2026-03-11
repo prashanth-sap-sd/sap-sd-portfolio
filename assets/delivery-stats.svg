@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080d1a"/>
+      <stop offset="100%" style="stop-color:#0d1a33"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8b46a"/>
+      <stop offset="100%" style="stop-color:#c8893a"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7ab8"/>
+      <stop offset="100%" style="stop-color:#1a4a8a"/>
+    </linearGradient>
+    <linearGradient id="cardG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#162040"/>
+      <stop offset="100%" style="stop-color:#0d1628"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="380" fill="url(#bg2)" rx="16"/>
+
+  <!-- Decorative circles -->
+  <circle cx="820" cy="60" r="120" fill="none" stroke="#c8893a" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="820" cy="60" r="80" fill="none" stroke="#c8893a" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="80" cy="320" r="100" fill="none" stroke="#1a3a6b" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Header -->
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#ffffff" font-weight="bold" letter-spacing="1">DELIVERY TRACK RECORD</text>
+  <text x="450" y="60" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#c8893a" letter-spacing="3">PRASHANTH GOUD · SAP SD / S/4HANA CONSULTANT</text>
+  <line x1="60" y1="74" x2="840" y2="74" stroke="#c8893a" stroke-width="1" opacity="0.4"/>
+
+  <!-- ── STAT CARDS ROW 1 ── -->
+
+  <!-- Card 1: Years -->
+  <rect x="40" y="90" width="180" height="120" rx="10" fill="url(#cardG)" stroke="#c8893a" stroke-width="1.5"/>
+  <rect x="40" y="90" width="180" height="4" rx="2" fill="url(#barGrad)"/>
+  <text x="130" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#c8893a" font-weight="bold" filter="url(#glow2)">10+</text>
+  <text x="130" y="170" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="2">YEARS EXPERIENCE</text>
+  <text x="130" y="184" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5070">SAP SD / S/4HANA</text>
+
+  <!-- Card 2: Implementations -->
+  <rect x="240" y="90" width="180" height="120" rx="10" fill="url(#cardG)" stroke="#c8893a" stroke-width="1.5"/>
+  <rect x="240" y="90" width="180" height="4" rx="2" fill="url(#barGrad)"/>
+  <text x="330" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#c8893a" font-weight="bold" filter="url(#glow2)">3</text>
+  <text x="330" y="170" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="2">FULL LIFECYCLES</text>
+  <text x="330" y="184" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5070">S/4HANA &amp; ECC</text>
+
+  <!-- Card 3: P1 Defects -->
+  <rect x="440" y="90" width="180" height="120" rx="10" fill="url(#cardG)" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="440" y="90" width="180" height="4" rx="2" fill="#22c55e"/>
+  <text x="530" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#22c55e" font-weight="bold" filter="url(#glow2)">0</text>
+  <text x="530" y="170" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#7a9cc8" letter-spacing="2">P1 DEFECTS</text>
+  <text x="530" y="184" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#3a5070">AT GO-LIVE</text>
+
+  <!-- Card 4: Industries -->
+  <rect x="640" y="90" width="220" height="120" rx="10" fill="url(#cardG)" stroke="#c8893a" stroke-width="1.5"/>
+  <rect x="640" y="90" width="220" height="4" rx="2" fill="url(#barGrad)"/>
+  <text x="750" y="125" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c8893a" letter-spacing="2">INDUSTRIES SERVED</text>
+  <text x="750" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff">Financial Services</text>
+  <text x="750" y="161" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff">Healthcare</text>
+  <text x="750" y="177" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff">Information Services</text>
+  <text x="750" y="193" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#ffffff">Technology</text>
+
+  <!-- ── PROGRESS BARS SECTION ── -->
+  <text x="40" y="248" font-family="'Courier New', monospace" font-size="11" fill="#c8893a" letter-spacing="2">COMPETENCY DEPTH</text>
+  <line x1="40" y1="256" x2="860" y2="256" stroke="#1a3a6b" stroke-width="1"/>
+
+  <!-- Bar: OTC / Order-to-Cash -->
+  <text x="40" y="278" font-family="'Courier New', monospace" font-size="10" fill="#8ab4d8">Order-to-Cash (OTC)</text>
+  <rect x="220" y="266" width="620" height="14" rx="7" fill="#0d1628"/>
+  <rect x="220" y="266" width="590" height="14" rx="7" fill="url(#barGrad)" opacity="0.9"/>
+  <text x="852" y="278" font-family="'Courier New', monospace" font-size="9" fill="#c8893a">95%</text>
+
+  <!-- Bar: Advanced Pricing -->
+  <text x="40" y="302" font-family="'Courier New', monospace" font-size="10" fill="#8ab4d8">Advanced Pricing</text>
+  <rect x="220" y="290" width="620" height="14" rx="7" fill="#0d1628"/>
+  <rect x="220" y="290" width="575" height="14" rx="7" fill="url(#barGrad)" opacity="0.9"/>
+  <text x="852" y="302" font-family="'Courier New', monospace" font-size="9" fill="#c8893a">93%</text>
+
+  <!-- Bar: S/4HANA -->
+  <text x="40" y="326" font-family="'Courier New', monospace" font-size="10" fill="#8ab4d8">S/4HANA Migration</text>
+  <rect x="220" y="314" width="620" height="14" rx="7" fill="#0d1628"/>
+  <rect x="220" y="314" width="550" height="14" rx="7" fill="url(#barGrad2)" opacity="0.9"/>
+  <text x="852" y="326" font-family="'Courier New', monospace" font-size="9" fill="#4a7ab8">88%</text>
+
+  <!-- Bar: Billing -->
+  <text x="40" y="350" font-family="'Courier New', monospace" font-size="10" fill="#8ab4d8">Billing &amp; Revenue</text>
+  <rect x="220" y="338" width="620" height="14" rx="7" fill="#0d1628"/>
+  <rect x="220" y="338" width="560" height="14" rx="7" fill="url(#barGrad)" opacity="0.9"/>
+  <text x="852" y="350" font-family="'Courier New', monospace" font-size="9" fill="#c8893a">90%</text>
+
+  <!-- Footer -->
+  <text x="450" y="372" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#1a2a40" letter-spacing="2">github.com/prashanth-sap-sd · prashanth-sap-sd.github.io</text>
+</svg>
