@@ -1,4 +1,4 @@
-# Visual Portfolio — Prashanth Goud · SAP SD / S/4HANA Consultant
+# Visual Portfolio — Prashanth Goud · SAP / S/4HANA Consultant
 
 > Dark & modern architecture visuals, competency maps, and process diagrams
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 🎯 SAP SD Competency Map
+## 🎯 SAP Competency Map
 
 ![Skills Competency Map](./skills-competency-map.svg)
 
